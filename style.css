@@ -1,0 +1,66 @@
+@font-face {
+  font-family: 'Cotham Sans'; 
+  src: url('CothamSans.otf');
+}
+.title {
+  font-size: 4em;
+  margin-left: 1.3em;
+}
+div.points {
+  line-height: 1.5em;
+}
+body {
+  font-family: 'Cotham Sans', 'Arial';
+  background-color: #eeeeee;
+}
+p {
+  font-size: 3.5em;
+}
+.link {
+  font-size: 3.5em;
+  margin-left: 2.2em;
+  color: #0066ee;
+  text-decoration: underline;
+}
+.link:hover {
+  color:#c40000;
+}
+.link:visited {
+  color:#c40000;
+}
+
+button {
+  font-family: inherit;
+  font-size: 3.5em;
+  text-align: left;
+  margin-left: 2.15em;
+}
+.collapsible {
+  cursor: pointer;
+  text-align: left;
+  border: none;
+  background: none;
+}
+.content {
+  overflow: hidden;
+  font-size: 3.5em;
+  display: none;
+  margin-left: 2.7em;
+}
+.collapsible:after {
+  content: '\02303';
+  font-size: 0.7em;
+}
+.active:after {
+  content: "\2304";
+}
+.buttonformatting{
+  display: inline;
+  cursor: pointer;
+  text-align: left;
+  font-size: 1.6vw;
+  margin-left: auto;
+  border: none;
+  background: none;
+}
+

@@ -3,33 +3,41 @@
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>b581</title>
-    <!--<link rel="icon" type="image/x-icon" href="favicon.png"> need to make one doe-->
-    <style>
-      .title {
-        font-size: 1.2em;
-      }
-      .link {
-        font-size: 1.1em;
-        color: #0066ee;
-        text-decoration: underline;
-      }
-      .link:hover {
-        color:#ee0000;
-      }
-    </style>
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
     <p class="title">b581</p>
-    <a href="done.html"><p class="link">things i've done</p></a>
+
+    <button type="button" class="collapsible">first button</button>
+    <div class="content">
+     i do computing science at uni and am mostly just working on learning how to do things at the minute, but i like making website
+    </div>
     <br>
+    <button type="button" class="collapsible">second button</button>
+      <div class="content">
+       hello
+      </div>
     <br>
-    <a href="been.html"><p class="link">places i've been</p></a>
+    <a href="projects.png" class="link">projects</a>
     <br>
-    <br>
-    <br>
-    <br>
-    <a href="seen.html"><p class="link">things i've seen</p></a>
-    <br>
-    <a href="who.html"><p class="link">who am i</p></a>
+    <a href="https://www.github.com/wfuo" class="link">github</a>
+
+
+    <script>
+      var coll = document.getElementsByClassName("collapsible");
+      var i;
+      
+      for (i = 0; i < coll.length; i++) {
+        coll[i].addEventListener("click", function() {
+          this.classList.toggle("active");
+          var content = this.nextElementSibling;
+          if (content.style.display === "block") {
+            content.style.display = "none";
+          } else {
+            content.style.display = "block";
+          }
+        });
+      } 
+      </script>
   </body>
 </html>
