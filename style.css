@@ -34,6 +34,7 @@ button {
   font-size: 3.5em;
   text-align: left;
   margin-left: 2.15em;
+  appearance: none;
 }
 .collapsible {
   cursor: pointer;
