@@ -1,0 +1,22 @@
+body{
+    background-color: #eeeeee;
+}
+.bigb{
+  font-size: 3.7em;
+  margin-left: 8vw;
+  text-decoration: none;
+  color: #000000;
+  line-height: 200%;
+}
+.points {
+  font-size: 3.5em;
+  margin-left: 10vw;
+  color: #0066ee;
+  text-decoration: underline;
+}
+.points:hover {
+  color:#c40000;
+}
+.points:visited {
+  color:#c40000;
+}
